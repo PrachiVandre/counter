@@ -1,0 +1,39 @@
+:root {
+  --mainWhite: #f5f5f5;
+  --mainGreen: #7fb800;
+  --mainBlue: #230d0d;
+  --lightBlue: #000;
+  --mainBlack: #000;
+}
+h1{
+  color: #000;
+}
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background: url("../img/mainBcg.jpeg") center/cover fixed no-repeat;
+  color: var(--mainWhite);
+}
+.main-container {
+  border:0.1rem solid #6f4f35;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+  border-radius: 0.2rem;
+}
+#counter {
+  color: var(--mainGreen);
+  font-size: 10rem;
+  color: var(--mainBlack);
+}
+.prevBtn,
+.nextBtn {
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+}
+.prevBtn:hover {
+  background: var(--lightBlue);
+}
+.nextBtn:hover {
+  background: var(--lightBlue);
+}
